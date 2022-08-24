@@ -1,5 +1,8 @@
+import Home from "./Home";
+import "./style.css";
+
 function App() {
-  return <div>Hello World</div>;
+  return <Home name="Richard Meng" />;
 }
 
 export default App;

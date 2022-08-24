@@ -1,0 +1,11 @@
+.home {
+    height: 100vh;
+}
+
+.home-box {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 35%;
+    text-align: center;
+}
