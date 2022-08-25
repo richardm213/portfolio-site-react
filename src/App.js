@@ -1,8 +1,14 @@
 import Home from "./Home";
+import AboutMe from "./AboutMe";
 import "./style.css";
 
 function App() {
-  return <Home name="Richard Meng" />;
+  return (
+    <div class="app">
+      <Home name="Richard Meng" />
+      <AboutMe />
+    </div>
+  );
 }
 
 export default App;

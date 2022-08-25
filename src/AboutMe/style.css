@@ -1,0 +1,80 @@
+.about-me {
+    padding-top: 8%;
+    height: 100vh;
+}
+
+.about-me-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.profile-pic {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    margin-bottom: 1em;
+    border-radius: 100px;
+}
+
+.links {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.link+.link {
+    margin-left: 0.5em;
+}
+
+.links a:link {
+    color: #145BCD;
+    text-decoration: none;
+}
+
+.links a:visited {
+    color: #145BCD;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #F2A51B;
+    text-decoration: none;
+}
+
+#see-projects-button {
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+#see-projects-button span {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#see-projects-button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#see-projects-button:hover span {
+    padding-right: 15px;
+}
+
+#see-projects-button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#see-projects-button:hover {
+    cursor: pointer;
+}
