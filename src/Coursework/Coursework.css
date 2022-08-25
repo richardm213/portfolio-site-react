@@ -1,0 +1,15 @@
+.coursework {
+    height: 50vh;
+    padding-top: 15vh;
+}
+
+.coursework-box {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.course-list {
+    line-height: 2.25em;
+    margin-bottom: 2em;
+}
