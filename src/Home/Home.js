@@ -17,6 +17,7 @@ function Home(props) {
   return (
     <div class="home">
       <Particles
+        id="tsparticles"
         options={particlesOptions}
         init={particlesInit}
         loaded={particlesLoaded}

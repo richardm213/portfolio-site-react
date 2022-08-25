@@ -1,8 +1,6 @@
 {
-  "background": {
-    "color": {
-      "value": "#F9EFF4"
-    }
+  "fullScreen": {
+    "enable": false
   },
   "fpsLimit": 120,
   "interactivity": {
@@ -22,20 +20,24 @@
         "quantity": 4
       },
       "repulse": {
-        "distance": 200,
+        "distance": 100,
         "duration": 0.4
       }
     }
   },
   "particles": {
     "color": {
-      "value": ["#05F0D9","#9FF005", "#056DF0"]
+      "value": [
+        "#05F0D9",
+        "#9FF005",
+        "#056DF0"
+      ]
     },
     "links": {
       "color": "#7000FA",
       "distance": 150,
       "enable": true,
-      "opacity": "0.5",
+      "opacity": "0",
       "width": 1
     },
     "collisions": {
@@ -48,7 +50,7 @@
         "default": "bounce"
       },
       "random": false,
-      "speed": 6,
+      "speed": 3,
       "straight": false
     },
     "number": {
@@ -66,7 +68,7 @@
     },
     "size": {
       "random": true,
-      "value": 5
+      "value": 15
     }
   },
   "detectRetina": true
