@@ -20,3 +20,13 @@
     top: 35%;
     text-align: center;
 }
+
+#go-down {
+    width: 55px;
+    transition: 0.3s;
+}
+
+#go-down:hover {
+    width: 60px;
+    transition: 0.3s;
+}

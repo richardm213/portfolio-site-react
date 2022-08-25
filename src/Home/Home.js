@@ -24,6 +24,13 @@ function Home(props) {
       />
       <div class="home-box">
         <h1>{props.name}</h1>
+        <a href="#about-me">
+          <img
+            id="go-down"
+            src={require("../assets/down-arrow.png")}
+            alt="Down arrow"
+          />
+        </a>
       </div>
     </div>
   );
