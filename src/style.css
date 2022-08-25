@@ -1,8 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Sorts+Mill+Goudy&display=swap');
+
 h1 {
+    font-family: 'Cormorant Garamond', serif;
     font-size: 75px;
+    font-weight: 400;
     margin: 0 auto;
 }
 
 h2 {
+    font-family: 'Cormorant Garamond', serif;
     font-size: 40px;
+    font-weight: 400;
+    margin: 0 auto 0.6em auto;
+}
+
+p {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 16px;
+    margin: 0;
 }
