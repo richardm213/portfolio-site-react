@@ -53,6 +53,7 @@ function Projects() {
           >
             <img
               class="project-pic"
+              id="maze-pic"
               src={require("../assets/maze.png")}
               alt="Maze"
             />

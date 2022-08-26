@@ -50,6 +50,10 @@
     border-radius: 10px;
 }
 
+#maze-pic {
+    filter: invert(var(--invert));
+}
+
 .project-item img:hover {
     opacity: 0.5;
 }
