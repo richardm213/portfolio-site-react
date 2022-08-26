@@ -32,6 +32,7 @@
 }
 
 #go-down {
+    filter: invert(var(--invert));
     width: 55px;
     transition: 0.3s;
 }

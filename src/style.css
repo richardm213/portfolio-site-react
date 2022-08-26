@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Sorts+Mill+Goudy&display=swap');
 
+:root {
+    --bg-primary: #FFFFFF;
+    --text-primary: #000000;
+    --invert: 0%;
+}
+
 html {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
     scroll-behavior: smooth;
+    transition: 1s;
 }
 
 h1 {
