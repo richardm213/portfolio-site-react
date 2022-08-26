@@ -43,7 +43,8 @@
 }
 
 #see-projects-button {
-    background-color: white;
+    background-image: linear-gradient(to right, #DB0025 0%, #F20CA6 51%, #D40CE8 100%);
+    color: #FFFFFF;
     width: 150px;
     height: 40px;
     border-color: black;
