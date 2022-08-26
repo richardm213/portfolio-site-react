@@ -15,10 +15,20 @@
 
 .home-box {
     position: absolute;
-    left: 25%;
-    right: 25%;
-    top: 35%;
+    left: 0;
+    right: 0;
+    top: 40%;
     text-align: center;
+}
+
+#name-header {
+    transition: 0.2s;
+}
+
+#name-header:hover {
+    font-size: 82px;
+    cursor: pointer;
+    transition: 0.5s;
 }
 
 #go-down {
