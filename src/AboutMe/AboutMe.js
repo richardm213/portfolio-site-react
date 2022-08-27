@@ -11,11 +11,19 @@ function AboutMe() {
           src={require("../assets/richard.jpeg")}
           alt="Richard Meng"
         />
-        <p>
+        <div id="about-me-text">
           Hi, I'm Richard! I'm currently a 4th year Computer Science major at UC
-          Irvine. <br />
-          Some of my hobbies include tennis, chess, and photography.
-        </p>
+          Irvine. Whether it's for a challenging course or in my free time, I
+          love to solve problems in the form of code. In particular, I really
+          enjoy building out complex and efficient algorithms that have
+          practical use cases. I have a wide range of skills from general
+          purpose languages such as C++, Python, and Java to front end
+          development technologies such as HTML, CSS, Javascript, and Javascript
+          frameworks (React, Angular, Ionic). Additionally, I'm always eager to
+          try out new technologies and expand my knowledge in the coding world.
+          When I'm not coding, some of my hobbies include tennis, chess, and
+          photography.
+        </div>
         <div class="links">
           <a class="link" href="https://github.com/richardm213">
             GitHub

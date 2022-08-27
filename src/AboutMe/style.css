@@ -1,6 +1,6 @@
 .about-me {
-    padding-top: 8%;
-    height: 100vh;
+    height: 90vh;
+    padding-top: 10vh;
 }
 
 .about-me-box {
@@ -11,10 +11,16 @@
 
 .profile-pic {
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 1.5em auto;
     width: 200px;
-    margin-bottom: 1em;
     border-radius: 100px;
+}
+
+#about-me-text {
+    margin: auto auto 1em auto;
+    max-width: 600px;
+    line-height: 1.5;
+    text-align: left;
 }
 
 .links {
