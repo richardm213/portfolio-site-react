@@ -17,11 +17,11 @@
     "modes": {
       "bubble": {
         "distance": 150,
-        "size": 20
+        "size": 23
       },
       "connect": {
         "distance": 100,
-        "radius": 200,
+        "radius": 225,
         "links.opacity": 1
       }
     }
@@ -35,11 +35,13 @@
       ]
     },
     "links": {
-      "color": "#7000FA",
+      "color": [
+        "#F20CA6"
+      ],
       "distance": 150,
       "enable": true,
       "opacity": "0.4",
-      "width": 1
+      "width": 1.5
     },
     "collisions": {
       "enable": false
