@@ -3,10 +3,10 @@ import "./style.css";
 
 function Coursework() {
   return (
-    <div class="coursework" id="coursework">
-      <div class="coursework-box">
+    <div className="coursework" id="coursework">
+      <div className="coursework-box">
         <h2>Relevant Coursework</h2>
-        <p class="course-list">
+        <p className="course-list">
           Data Structure Implementation and Analysis <br />
           Design and Analysis of Algorithms <br />
           Machine Learning and Data Mining <br />

@@ -36,14 +36,14 @@ function Home(props) {
   }, []);
 
   return (
-    <div class="home">
+    <div className="home">
       <Particles
         id="tsparticles"
         options={particlesOptions}
         init={particlesInit}
         loaded={particlesLoaded}
       />
-      <div class="home-box">
+      <div className="home-box">
         <h1 id="name-header" onClick={() => handleNameClick()}>
           {props.name}
         </h1>

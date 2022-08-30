@@ -3,11 +3,11 @@ import "./style.css";
 
 function AboutMe() {
   return (
-    <div class="about-me" id="about-me">
-      <div class="about-me-box">
+    <div className="about-me" id="about-me">
+      <div className="about-me-box">
         <h2>About Me</h2>
         <img
-          class="profile-pic"
+          className="profile-pic"
           src={require("../../assets/richard.jpeg")}
           alt="Richard Meng"
         />
@@ -24,15 +24,15 @@ function AboutMe() {
           When I'm not coding, some of my hobbies include tennis, chess, and
           photography.
         </div>
-        <div class="links">
-          <a class="link" href="https://github.com/richardm213">
+        <div className="links">
+          <a className="link" href="https://github.com/richardm213">
             GitHub
           </a>
-          <a class="link" href="mailto:rmeng3@uci.edu">
+          <a className="link" href="mailto:rmeng3@uci.edu">
             rmeng3@uci.edu
           </a>
           <a
-            class="link"
+            className="link"
             href="https://www.linkedin.com/in/richard-meng-92348b194"
           >
             Linkedin

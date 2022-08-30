@@ -3,20 +3,20 @@ import "./style.css";
 
 function Projects() {
   return (
-    <div class="projects" id="projects">
-      <div class="project-grid">
-        <div class="project-header">
+    <div className="projects" id="projects">
+      <div className="project-grid">
+        <div className="project-header">
           <h2>Projects</h2>
         </div>
 
-        <div class="project-item">
+        <div className="project-item">
           <a
             href="https://github.com/richardm213/"
             target="_blank"
             rel="noreferrer"
           >
             <img
-              class="project-pic"
+              className="project-pic"
               src={require("../../assets/othello.png")}
               alt="Othello game board"
             />
@@ -27,14 +27,14 @@ function Projects() {
           </p>
         </div>
 
-        <div class="project-item">
+        <div className="project-item">
           <a
             href="https://github.com/richardm213/"
             target="_blank"
             rel="noreferrer"
           >
             <img
-              class="project-pic"
+              className="project-pic"
               src={require("../../assets/sleep.jpg")}
               alt="Sleep tracker icon"
             />
@@ -45,14 +45,14 @@ function Projects() {
           </p>
         </div>
 
-        <div class="project-item">
+        <div className="project-item">
           <a
             href="https://github.com/richardm213/"
             target="_blank"
             rel="noreferrer"
           >
             <img
-              class="project-pic"
+              className="project-pic"
               id="maze-pic"
               src={require("../../assets/maze.png")}
               alt="Maze"
@@ -64,14 +64,14 @@ function Projects() {
           </p>
         </div>
 
-        <div class="project-item">
+        <div className="project-item">
           <a
             href="https://github.com/richardm213"
             target="_blank"
             rel="noreferrer"
           >
             <img
-              class="project-pic"
+              className="project-pic"
               src={require("../../assets/spotify.jpg")}
               alt="Spotify logo"
             />
@@ -83,14 +83,14 @@ function Projects() {
           </p>
         </div>
 
-        <div class="project-item">
+        <div className="project-item">
           <a
             href="https://github.com/richardm213"
             target="_blank"
             rel="noreferrer"
           >
             <img
-              class="project-pic"
+              className="project-pic"
               src={require("../../assets/twitter.webp")}
               alt="Twitter logo"
             />

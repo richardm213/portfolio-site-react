@@ -6,7 +6,7 @@ import "./style.css";
 
 function App() {
   return (
-    <div class="app">
+    <div className="app">
       <Home name="Richard Meng" />
       <AboutMe />
       <Projects />
