@@ -50,7 +50,7 @@ function Home(props) {
         <a href="#about-me">
           <img
             id="go-down"
-            src={require("../assets/down-arrow.png")}
+            src={require("../../assets/down-arrow.png")}
             alt="Down arrow"
           />
         </a>

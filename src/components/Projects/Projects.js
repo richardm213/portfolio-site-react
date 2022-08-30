@@ -17,7 +17,7 @@ function Projects() {
           >
             <img
               class="project-pic"
-              src={require("../assets/othello.png")}
+              src={require("../../assets/othello.png")}
               alt="Othello game board"
             />
           </a>
@@ -35,7 +35,7 @@ function Projects() {
           >
             <img
               class="project-pic"
-              src={require("../assets/sleep.jpg")}
+              src={require("../../assets/sleep.jpg")}
               alt="Sleep tracker icon"
             />
           </a>
@@ -54,7 +54,7 @@ function Projects() {
             <img
               class="project-pic"
               id="maze-pic"
-              src={require("../assets/maze.png")}
+              src={require("../../assets/maze.png")}
               alt="Maze"
             />
           </a>
@@ -72,7 +72,7 @@ function Projects() {
           >
             <img
               class="project-pic"
-              src={require("../assets/spotify.jpg")}
+              src={require("../../assets/spotify.jpg")}
               alt="Spotify logo"
             />
           </a>
@@ -91,7 +91,7 @@ function Projects() {
           >
             <img
               class="project-pic"
-              src={require("../assets/twitter.webp")}
+              src={require("../../assets/twitter.webp")}
               alt="Twitter logo"
             />
           </a>

@@ -8,7 +8,7 @@ function AboutMe() {
         <h2>About Me</h2>
         <img
           class="profile-pic"
-          src={require("../assets/richard.jpeg")}
+          src={require("../../assets/richard.jpeg")}
           alt="Richard Meng"
         />
         <div id="about-me-text">

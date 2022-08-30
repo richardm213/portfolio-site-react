@@ -1,5 +1,5 @@
 import React from "react";
-import "./Coursework.css";
+import "./style.css";
 
 function Coursework() {
   return (
