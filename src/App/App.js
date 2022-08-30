@@ -1,7 +1,7 @@
-import Home from "./Home";
-import AboutMe from "./AboutMe";
-import Projects from "./Projects";
-import Coursework from "./Coursework";
+import Home from "../Home";
+import AboutMe from "../AboutMe";
+import Projects from "../Projects";
+import Coursework from "../Coursework";
 import "./style.css";
 
 function App() {
