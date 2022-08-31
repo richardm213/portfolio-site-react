@@ -34,17 +34,17 @@
 }
 
 .links a:link {
-    color: #145BCD;
+    color: var(--link-primary);
     text-decoration: none;
 }
 
 .links a:visited {
-    color: #145BCD;
+    color: var(--link-primary);
     text-decoration: none;
 }
 
 .links a:hover {
-    color: #F2A51B;
+    color: var(--link-hover-primary);
     text-decoration: none;
 }
 

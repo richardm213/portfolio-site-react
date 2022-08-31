@@ -9,10 +9,12 @@ const updateMode = (darkMode) => {
   if (!darkMode) {
     root.style.setProperty("--bg-primary", "#FFFFFF");
     root.style.setProperty("--text-primary", "#000000");
+    root.style.setProperty("--link-primary", "#145BCD");
     root.style.setProperty("--invert", "0%");
   } else {
     root.style.setProperty("--bg-primary", "#000000");
     root.style.setProperty("--text-primary", "#FFFFFF");
+    root.style.setProperty("--link-primary", "#4C8DF7");
     root.style.setProperty("--invert", "100%");
   }
 };

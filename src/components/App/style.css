@@ -3,6 +3,8 @@
 :root {
     --bg-primary: #FFFFFF;
     --text-primary: #000000;
+    --link-primary: #145BCD;
+    --link-hover-primary: #F2A51B;
     --invert: 0%;
 }
 
