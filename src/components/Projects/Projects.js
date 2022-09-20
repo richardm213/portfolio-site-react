@@ -11,7 +11,7 @@ function Projects() {
 
         <div className="project-item">
           <a
-            href="https://github.com/richardm213/"
+            href="https://github.com/richardm213/othello-ai"
             target="_blank"
             rel="noreferrer"
           >
@@ -29,7 +29,25 @@ function Projects() {
 
         <div className="project-item">
           <a
-            href="https://github.com/richardm213/"
+            href="https://github.com/richardm213/spotify-top-songs"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              className="project-pic"
+              src={require("../../assets/spotify.jpg")}
+              alt="Spotify logo"
+            />
+          </a>
+          <p>
+            I build the frontend and backend of an app that displays your top 50
+            Spotify songs based on a chosen time range.
+          </p>
+        </div>
+
+        <div className="project-item">
+          <a
+            href="https://github.com/richardm213/sleep-tracker"
             target="_blank"
             rel="noreferrer"
           >
@@ -47,7 +65,7 @@ function Projects() {
 
         <div className="project-item">
           <a
-            href="https://github.com/richardm213/"
+            href="https://github.com/richardm213/maze-generator-solver"
             target="_blank"
             rel="noreferrer"
           >
@@ -66,7 +84,7 @@ function Projects() {
 
         <div className="project-item">
           <a
-            href="https://github.com/richardm213"
+            href="https://github.com/richardm213/spotify-browser"
             target="_blank"
             rel="noreferrer"
           >
@@ -80,25 +98,6 @@ function Projects() {
             I completed the front end portion of a Spotify Browser. Users can
             connect their Spotify account and search for artists, albums, and
             tracks.
-          </p>
-        </div>
-
-        <div className="project-item">
-          <a
-            href="https://github.com/richardm213"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              className="project-pic"
-              src={require("../../assets/twitter.webp")}
-              alt="Twitter logo"
-            />
-          </a>
-          <p>
-            I created an app that categorizes tweets based on certain filters
-            and displays data through graphs. Users can also search up tweets
-            based on their content.
           </p>
         </div>
       </div>
